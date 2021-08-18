@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.login-form {
+  margin-top: 300px;
+  display: inline-block;
+  border: 5px solid grey;
+  padding: 20px;
+}
+
+.logo-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo-section-text {
+  width: 50%;
+}
