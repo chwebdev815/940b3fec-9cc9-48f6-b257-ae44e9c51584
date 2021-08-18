@@ -52,3 +52,7 @@
 .logo-section-text {
   width: 50%;
 }
+
+.dashboard-container {
+  display: flex;
+}

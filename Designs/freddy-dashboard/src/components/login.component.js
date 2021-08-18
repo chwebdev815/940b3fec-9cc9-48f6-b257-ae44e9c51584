@@ -36,6 +36,7 @@ export const Login = () => {
         } else {
           console.log('success login');
           localStorage.setItem('access_token', data.access_token);
+          localStorage.setItem('refresh_token', data.refresh_token);
           history.push('/dashboard');
         }
       })
